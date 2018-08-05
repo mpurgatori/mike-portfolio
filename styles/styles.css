@@ -151,7 +151,7 @@ nav .menu__item {
 
 
 .about-section h1 {
-	padding: 1rem 0;
+	padding: .8rem 0;
 	font-size: 3rem; 
 }
 
@@ -243,7 +243,7 @@ nav .menu__item {
 }
 
 .portfolio-section h1 {
-	padding: 1rem 0;
+	padding: .8rem 0;
 	font-size: 3rem; 
 }
 
@@ -264,6 +264,7 @@ nav .magic-wand {
 
 
 .portfolio-item {
+	min-height: 145px;
 	cursor: pointer;
 	display: -ms-flexbox;
 	display: flex;
@@ -279,7 +280,7 @@ nav .magic-wand {
 	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(155, 141, 141, 0.12),0 2px 1px -2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12),0 2px 1px -2px rgba(0,0,0,.2);
 	width: 12rem;
-	margin: 1rem
+	margin: .8rem
 }
 
 @media (max-width: 425px) {
