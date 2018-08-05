@@ -22,30 +22,43 @@
 					<i class="fa fa-magic" aria-hidden="true"></i>
 			</div>
 			<div class="menu">
-				<div class="menu__item active">About</div>
-				<div class="menu__item">Portfolio</div>
+				<div id="about-menu" class="menu__item active">About</div>
+				<div id="portfolio-menu" class="menu__item">Portfolio</div>
 			</div>         
 		</nav>
-		<section class="site-section intro-section">
+		<section id="introSection" class="site-section intro-section">
 			<div class="intro">Welcome, I'm Mike</div>
 			<div class="tagline">JavaScript Engineer | Front End Developer | EU Citizen | All Around Cool Dude</div>
 			<div class="icons-social">
 				<a target="_blank" href="https://github.com/mpurgatori"><i class="fab fa-github"></i></a>
 				<a target="_blank" href="https://www.linkedin.com/in/mikepurgatori"><i class="fab fa-linkedin"></i></a>
+				<a target="_blank" href="https://www.flickr.com/photos/mpurgatori/"><i class="fab fa-flickr"></i></a>
 				<a target="_blank" href="https://www.instagram.com/mpurgatori/"><i class="fab fa-instagram"></i></a>
 			</div>
 			<div id="intro-arrow" class="scroll-to-next arrow"><i class="fas fa-chevron-down"></i></div>
 		</section>
 
-		<section class="site-section about-section">
+		<section id="aboutSection" class="site-section about-section">
 			<div class="content-grid">
 				<h1>About</h1>
 				<div class="about-wrapper">
 					<div class="about-content">
-						<p>I like and everything web.</p>
-						<p>When my dev senses kick-in I build presumably. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to what I learn.</p>
-						<p>I built this site . By scratch, I mean (except React though) and had so much fun along the way.</p>
-						<p>React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.</p>
+						<p>
+							A lover of all things JavaScript and ui, currently I am the Front End Developer for CDW's Purchase team where I'm solely responsible for all new 
+							ui and design implementations to a 3 billion dollar a year ecommerce platform. 							
+						</p>
+						<p>
+							I'm well experienced working with Node, React, jQuery, Sass, Mocha, Chai, Sinon, Webpack and Git and I'm always looking to learn new tools and libraries to incorporate into my work.
+						</p>
+						<p>
+							When I'm not coding I'm watching old movies, exploring Chicago's culinary scene and thinking about coding.  
+						</p>
+						<p>
+							Recently I gained Italian citizenship and am interested in development opportunities in Europe. My english is exceptional y mi español es malo (but I try).  
+						</p>
+						<p>
+							Feel free to contact me if you think we could work together.<br> 1-810-560-0087 | mpurgatori@gmail.com
+						</p>
 					</div>
 				</div>
 		</div>
@@ -53,24 +66,41 @@
 		</section>
 
 
-		<section class="site-section portfolio-section">
+		<section id="portfolioSection" class="site-section portfolio-section">
 			<div class="content-grid"><h1>Portfolio</h1>
 				<div class="portfolio-wrapper">
 					<div class="portfolio-item">
-						<div class="portfolio-item__title">Baseball Blockchain</div>
-						<div class="portfolio-item__desc">A blockchain baseball card application</div>
+						<a class="portfolio-anchor" href="https://github.com/mpurgatori/baseball-card-bc" target="_blank">
+							<div class="portfolio-item__title">Baseball Blockchain</div>
+							<div class="portfolio-item__desc">A blockchain application to store baseball cards. <br>* 2018 Chicago baseball hackday winner</div>
+							<div class="portfolio-item__desc">Node, React and Redux</div>
+						</a>
 					</div>
 					<div class="portfolio-item">
-						<div class="portfolio-item__title">Drawsome</div>
-						<div class="portfolio-item__desc">A blockchain baseball card application</div>
+						<a class="portfolio-anchor" href="https://github.com/mpurgatori/drawsome" target="_blank">
+							<div class="portfolio-item__title">Drawsome</div>
+							<div class="portfolio-item__desc">Social media application where all communication is through drawings</div>
+							<div class="portfolio-item__desc">Node, Express, React and Redux</div>
+						</a>
 					</div>
 					<div class="portfolio-item">
-						<div class="portfolio-item__title">Other thing</div>
-						<div class="portfolio-item__desc">A blockchain baseball card application</div>
+						<a class="portfolio-anchor" href="https://github.com/mpurgatori/teach" target="_blank">
+							<div class="portfolio-item__title">Teach</div>
+							<div class="portfolio-item__desc">An application thast makes writing assignments easier to disseminate for teachers</div>
+							<div class="portfolio-item__desc">Node, Express, React and Redux</div>
+						</a>
 					</div>
+					<a  id="resume-download" href="https://drive.google.com/open?id=1PLyBZwZhOcWPIEofyz51fkkD-FYAHp5y" target="_blank">
+					<div class="download-link">
+						<div>Download CV</div>
+							<i class="fas fa-external-link-alt"></i>	
+					</div>
+					</a>
 				</div>
 			</div>
-			<div id="portfolio-arrow" class="scroll-to-next arrow"><i class="fas fa-chevron-up"></i></div>
+			<div id="portfolio-arrow" class="scroll-to-next arrow">
+				<i class="fas fa-chevron-up"></i>
+			</div>
 		</section>
 
     </main>

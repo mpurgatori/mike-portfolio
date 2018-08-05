@@ -7,6 +7,9 @@ const mainElement = document.getElementsByTagName("main")[0];
 const navbar = document.getElementById("navbar");
 const linkElememts = document.getElementsByClassName("fab");
 const portfolioItems = document.getElementsByClassName("portfolio-item");
+const portfolioAnchors = document.getElementsByClassName("portfolio-anchor");
+
+const downloadAnchor = document.getElementById("resume-download");
 
 let currentColor = '';
 
@@ -43,12 +46,16 @@ const changeColor = () => {
     
         Object.assign(mainElement.style, mainStyles);
         Object.assign(navbar.style, mainStyles);
+        Object.assign(downloadAnchor.style, {color:fontColor});
         Object.keys(linkElememts).forEach(function (key) {
             Object.assign(linkElememts[key].style, elementStyles)
         }); 
         Object.keys(portfolioItems).forEach(function (key) {
           Object.assign(portfolioItems[key].style, portfolioStyles)
-      }); 
+        }); 
+        Object.keys(portfolioAnchors).forEach(function (key) {
+            Object.assign(portfolioAnchors[key].style, {color:backgroundColor})
+          }); 
     }
 }
 
