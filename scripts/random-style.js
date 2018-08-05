@@ -5,6 +5,7 @@
   const linkElememts = document.getElementsByClassName("fab");
 
   const portfolioItems = document.getElementsByClassName("portfolio-item");
+  const magicWand = document.getElementById("wand");
 
   const colorPaletteIndex = Math.floor(Math.random() * colorCombos.length);
   const colorPalette = colorCombos[colorPaletteIndex];
@@ -36,5 +37,11 @@ const changeColor = () => {
       Object.assign(portfolioItems[key].style, portfolioStyles)
   }); 
 }
+
+
+magicWand.addEventListener('click', ()=> { 
+    changeColor();
+});
+
 
 changeColor();

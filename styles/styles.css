@@ -220,7 +220,20 @@ nav .menu__item:hover {
 
 
 
-
+	nav .magic-wand {
+		cursor: pointer;
+		justify-self: flex-start;
+		margin-left: 1rem;
+		font-size: 1.4rem;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	
+	
 	
 
 
