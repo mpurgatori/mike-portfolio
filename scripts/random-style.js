@@ -1,7 +1,3 @@
-
-
-
-
 const magicWand = document.getElementById("wand");
 const mainElement = document.getElementsByTagName("main")[0];
 const navbar = document.getElementById("navbar");
